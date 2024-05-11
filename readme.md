@@ -26,3 +26,36 @@ Tener un entorno para poder realizar proyectos individuales y en colaboracion do
 - **anyCommand** -**help** (explica para qué sirve ese comando)
 - **esc + shift + zz** (Salir del editor de vimm)
 - **alias aliasname=”the command that you want to save with an alias”** (guardar comandos largos en un alias para no acordarse todo el código largo)
+
+
+
+CONCEPTOS NECESARIOS PARA ENTENDER GIT
+
+STAGED:
+
+En Git, "staging" se refiere al proceso de preparar cambios en archivos para que sean incluidos en el próximo commit, entonces el staged es el lugar dentro de la memoria RAM donde los archivos se encuentran trackeados(que se les hace un seguimiento)
+
+HEAD:
+
+Es un puntero especial que hace referencia al último commit en la rama actual. En otras palabras, es un puntero móvil que apunta al commit actualmente activo en tu repositorio.
+
+COMANDOS BASICOS DE GIT...
+
+"git init"
+
+Este comando se usa para inicializar git y crear el repositorio de manera local dentro de una carpera o directorio ya existente.
+"git add"
+
+Este comando se usa para a añadir archivos al staged, se puede seleccionar el archivo a trakear o hacer un add de toda la carpeta(git add .).
+
+"git status"
+
+Se utiliza en Git para mostrar el estado actual de tu repositorio. Proporciona información sobre qué archivos han sido modificados, qué archivos están en el área de staging (preparados para el próximo commit) y qué archivos no están siendo trackeados por Git.
+
+"git commit"
+
+ Este comando nos sirve para mandar los archivos que tenemos en nuestro staged al repositorio local anteriormente creado.
+
+"git log"
+
+El comando git log nos muestra el historial de commits realizados desde la creacion del repositorio.
