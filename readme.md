@@ -353,10 +353,36 @@ Posee 2 opciones:
 
 Revierte los cambios que un commit introdujo y crea un commit nuevo con los cambios revertidos.
 
-"git checkout"
+"git checkout""
 
 Nos permite recuperar codigo especifico de commits.
 
 "git checkout HASH filename"
 
 Nos permite traer una version anterior de un archivo a nuestra rama actual sin afectar demas archivos.
+
+
+
+
+
+CLASE N#8
+
+
+
+
+
+HOOKS
+
+Son eventos que se realizan antes o despues de ciertos comandos, podria verse como en base de datos TRIGGERS para mayor entendimiento.
+
+Son scripts personalizables que se ejecutan automáticamente en respuesta a ciertos eventos en un repositorio Git. Estos scripts permiten realizar acciones específicas antes o después de que ocurran eventos como hacer un commit, fusionar ramas, recibir cambios desde un repositorio remoto, entre otros.
+
+Los hooks del lado del cliente solo afectan al repositorio local que los contiene.
+
+1. **pre-commit**: Se ejecuta justo antes de realizar un commit. Puede utilizarse para realizar verificaciones de código, pruebas automáticas u otras acciones para garantizar que el commit cumpla con ciertos estándares.
+
+2. **post-commit**: Se ejecuta después de realizar un commit. Puede utilizarse para notificar a los desarrolladores sobre el commit, actualizar la documentación u otras acciones posteriores al commit.
+
+3. **pre-push**: Se ejecuta antes de enviar cambios locales a un repositorio remoto. Puede utilizarse para realizar pruebas finales o asegurarse de que los cambios locales no rompan la integración con el repositorio remoto.
+
+4. **post-merge**: Se ejecuta después de que se haya fusionado una rama en otra. Puede utilizarse para realizar acciones específicas después de una fusión, como actualizar dependencias o ejecutar migraciones de base de datos.
