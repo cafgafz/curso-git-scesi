@@ -88,7 +88,7 @@ MERGE:
 
 Se refiere a la fusion o incorporacion de cambios traidos desde otra rama a la rama actual o donde esta el puntero HEAD.
 
-COMANDOS PARA CREACION DE RAMAS:
+**COMANDOS PARA CREACION DE RAMAS:**
 
 "git branch"
 
@@ -110,7 +110,7 @@ Comando para eliminar una rama.
 
 
 
-COMANDOS SOBRE FUSION DE RAMAS
+**COMANDOS SOBRE FUSION DE RAMAS**
 
 "git merge"
 
@@ -132,11 +132,11 @@ Este comando nos sirve para ver las diferencias entre achivos, en la fusion o me
 
 ***<u><mark>CLASE N#3</mark></u>***
 
-REPOSITORIOS REMOTOS
+**REPOSITORIOS REMOTOS**
 
 Un repositorio remoto en Git es una versión de tu proyecto que esta alojada en un servidor en línea o en otro lugar accesible a través de Internet. Este repositorio remoto puede contener una copia completa del historial de tu proyecto, así como las ramas y los commits que has realizado.
 
-GITHUB
+**GITHUB**
 
 GitHub es una plataforma de desarrollo colaborativo para alojar proyectos utilizando el sistema de control de versiones Git. Es uno de los servicios de alojamiento de repositorios remotos más populares y ofrece diversas herramientas para facilitar la colaboración en proyectos de software.
 
@@ -146,7 +146,7 @@ Diferencia entre Git y GitHub
 
 - **GitHub** es un servicio de alojamiento en la nube de código fuente.
 
-COMANDOS PARA REPOSITORIOS REMOTOS
+**COMANDOS PARA REPOSITORIOS REMOTOS**
 
 "git remote add origin URLrepositorio"
 
@@ -161,3 +161,23 @@ Comando para editar url de un repositorio.
 Comando para borrar un repositorio remoto.
 
 "git remote -v"
+
+**PULL AND PUSH**
+
+Para ver todos los repositorios remotos mas urls que estan en nuestro local.
+
+"git pull nombreRepoRemoto ramalocal"
+
+Para traer todos los cambios del repositorio remoto.
+
+"git pull remoteRepositoryName localBranchName --allow-unrelated-histories"
+
+Para forzar traer todos los cambios del remoto.
+
+"git push "
+
+Para pushear o subir los cambios al repositorio remoto.
+
+"git push -f "
+
+Para forzar el subir los cambios o pushear al remoto.
