@@ -396,3 +396,21 @@ COMO CREAR MI PRIMER HOOK
 Para crear un propio hook solo tienes que crear un archivo nombre-del-hook en la carpeta .git/hooks y  en el poner el codigo que quieres que se ejecute.
 
 Puedes usar todo tipo de interpretes de lenguaje de programacion como bash, node, python, perl, etc.
+
+
+
+QUE ES UN ALIAS
+
+Un alias son nombres abreviados que se le pueden dar a comados dentro de git, permiten definir una serie de comandos que puden ser usados en lugar de los nombres completos. Se usan para facilitar la escritura, agilizar el proceso y hacer del ambiente de trabajo algo mas intimo y personalizado para el usuario.
+
+git co --> git commit
+
+git st --> git status
+
+"git config --global alias.nombre_alias "comando_git""
+
+Comando para crear un alias en nuestra terminal.
+
+"git config --unset alias.nombre_alias"
+
+Comando para borrar un alias.
