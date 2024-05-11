@@ -39,6 +39,10 @@ HEAD:
 
 Es un puntero especial que hace referencia al último commit en la rama actual. En otras palabras, es un puntero móvil que apunta al commit actualmente activo en tu repositorio.
 
+RAMAS: 
+
+Las ramas son una forma de trabajar en diferentes versiones de un repositorio al mismo tiempo, son basicamente una instantanea de la division del estado del codigo. Cada repositorio de Git tiene al menos una rama, que normalmente se llama "master" (o "main" en algunas configuraciones más recientes), que es la rama por defecto cuando se crea un repositorio.
+
 COMANDOS BASICOS DE GIT...
 
 "git init"
@@ -59,3 +63,19 @@ Se utiliza en Git para mostrar el estado actual de tu repositorio. Proporciona i
 "git log"
 
 El comando git log nos muestra el historial de commits realizados desde la creacion del repositorio.
+
+<u>***<mark>CLASE N#2</mark>***</u>
+
+COMANDOS PARA CREACION DE RAMAS:
+
+"git branch"
+
+Este comando crea una rama.
+
+"git switch"
+
+Para moverte entre ramas.
+
+"git checkout"
+
+Este es el comando que yo utilizaba para moverme entre ramas.s
