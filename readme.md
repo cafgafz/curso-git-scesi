@@ -288,3 +288,29 @@ Confiamos en el equipo y tenmos buenas practicas de desarrollo.
 Las revisiones de codigo no son requerimientos.
 
 Las ramas son lo mas pequenias posibles.
+
+
+
+
+
+<mark><u>***CLASE N#6***</u></mark>
+
+
+
+CADA CUANTO HACER UN COMMIT?
+
+ La respuesta es a menudo.
+
+Es mejor hacer commits pequenios, agrupando pequenias mejoras o acciones, que un commit con todo lo que se quiere hacer.
+
+Hacer commits a menudo no significa hacerlos sin sentido.
+
+BUENAS PRACTICAS SOBRE COMMITS
+
+- Usar el verbo imperativo(add, change, fix, remove)
+- No usar puntos suspensivos ni final en los mensajes del commit.
+- Usa como maximo 50 caracteres e tu mensaje de commit.
+- Pon todo el contexto que sea necesario en el mensaje.
+- Usa prefijos semanticos(feat, fix, perf, build, ci, docs, refactor, style, test, etc)
+
+ 
