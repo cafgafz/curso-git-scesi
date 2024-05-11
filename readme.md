@@ -314,3 +314,9 @@ BUENAS PRACTICAS SOBRE COMMITS
 - Usa prefijos semanticos(feat, fix, perf, build, ci, docs, refactor, style, test, etc)
 
  
+
+ESCRIBIR UN BUEN NOMBRE DE RAMA
+
+- Se conciente al nombrar tus ramas
+- Usa el nombre de la accion que se realiza en la rama
+- Use los IDs de JIRA o el sistema de tickets que uses
