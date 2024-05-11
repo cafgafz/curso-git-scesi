@@ -210,3 +210,19 @@ Actualiza la informacion de la rama remota en la local, para poder traer una ram
 
 "git remote prune origin"
 Eliminar ramas remotas de nuestro local(actualizar que ya no existen).
+
+
+
+
+
+<mark>***<u>CLASE#4</u>***</mark>
+
+**PULL REQUEST**
+
+Abreviada PR, es una solicitud de cambios enviados al repositorio original.
+
+HACER UNA BUENA PULL REQUEST
+
+1.- Enfocar el codigo en una sola cosa.
+
+2.- Explicar la pull request un video o grabar pantalla.
