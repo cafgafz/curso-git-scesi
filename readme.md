@@ -1,17 +1,17 @@
-CURSO DE GIT POSTULANTES SCESI UMSS 2024
+*<u>**CURSO DE GIT POSTULANTES SCESI UMSS 2024**</u>*
 
 En este README encontraras todo lo avanzado durante estas clases, junto con informacion adicional sobre GIT.
 
 
 
-QUE ES GIT?
+<u>***QUE ES GIT?***</u>
 Es el sistema controlador de versiones mas famoso del mundo, un proyecto de codigo abierto originalmente esarollado por LINUS TORVALDS, el famoso creador del kernel del sistema operativo LINUX
 
-EL OBJETIVO DE GIT:
+<u>***EL OBJETIVO DE GIT***</u>
 
 Tener un entorno para poder realizar proyectos individuales y en colaboracion donde las persona puedan trabajar y hacer aportes sin perder el tiempo(opinion personal).
 
-**COMANDOS DE BASH SOBRE LA TERMINAL BASADA EL LINUX**
+***<u>COMANDOS DE BASH SOBRE LA TERMINAL BASADA EL LINUX</u>***
 
 - **pwd** (directorio en el que actualmente te encuentras)
 - **cd** (change directory)
@@ -29,7 +29,7 @@ Tener un entorno para poder realizar proyectos individuales y en colaboracion do
 
 
 
-CONCEPTOS NECESARIOS PARA ENTENDER GIT
+*<u>**CONCEPTOS NECESARIOS PARA ENTENDER GIT**</u>*
 
 STAGED:
 
@@ -51,7 +51,7 @@ Se refiere a la fusion o incorporacion de cambios traidos desde otra rama a la r
 
 ***<u>CLASE N#1</u>***
 
-COMANDOS BASICOS DE GIT...
+<u>***COMANDOS BASICOS DE GIT***</u>
 
 "git init"
 
@@ -80,15 +80,15 @@ El comando git log nos muestra el historial de commits realizados desde la creac
 
 BRANCH
 
-RAMAS:
+<u>***RAMAS***</u>
 
 Las ramas son una forma de trabajar en diferentes versiones de un repositorio al mismo tiempo, son basicamente una instantanea de la division del estado del codigo. Cada repositorio de Git tiene al menos una rama, que normalmente se llama "master" (o "main" en algunas configuraciones más recientes), que es la rama por defecto cuando se crea un repositorio.
 
-MERGE:
+*<u>**MERGE**</u>*
 
 Se refiere a la fusion o incorporacion de cambios traidos desde otra rama a la rama actual o donde esta el puntero HEAD.
 
-**COMANDOS PARA CREACION DE RAMAS:**
+***<u>COMANDOS PARA CREACION DE RAMAS</u>***
 
 "git branch"
 
@@ -114,7 +114,7 @@ Para ver las ramas locales y remotas.
 
 
 
-**COMANDOS SOBRE FUSION DE RAMAS**
+***<u>COMANDOS SOBRE FUSION DE RAMAS</u>***
 
 "git merge"
 
@@ -136,11 +136,11 @@ Este comando nos sirve para ver las diferencias entre achivos, en la fusion o me
 
 ***<u><mark>CLASE N#3</mark></u>***
 
-**REPOSITORIOS REMOTOS**
+**<u>*REPOSITORIOS REMOTOS*</u>**
 
 Un repositorio remoto en Git es una versión de tu proyecto que esta alojada en un servidor en línea o en otro lugar accesible a través de Internet. Este repositorio remoto puede contener una copia completa del historial de tu proyecto, así como las ramas y los commits que has realizado.
 
-**GITHUB**
+**<u>*GITHUB*</u>**
 
 GitHub es una plataforma de desarrollo colaborativo para alojar proyectos utilizando el sistema de control de versiones Git. Es uno de los servicios de alojamiento de repositorios remotos más populares y ofrece diversas herramientas para facilitar la colaboración en proyectos de software.
 
@@ -150,7 +150,7 @@ Diferencia entre Git y GitHub
 
 - **GitHub** es un servicio de alojamiento en la nube de código fuente.
 
-**COMANDOS PARA REPOSITORIOS REMOTOS**
+***<u>COMANDOS PARA REPOSITORIOS REMOTOS</u>***
 
 "git remote add origin URLrepositorio"
 
@@ -170,7 +170,7 @@ Para ver todos los repositorios remotos mas urls que estan en nuestro local.
 
 
 
-**PULL AND PUSH**
+<u>*****PULL AND PUSH***</u>**
 
 
 
@@ -194,7 +194,7 @@ Para forzar el subir los cambios o pushear al remoto.
 
 Para clonar un repositorio remoto en tu local.
 
-CREACION DE UNA RAMA REMOTA
+<u>***CREACION DE UNA RAMA REMOTA***</u>
 
 "git switch -c"
 
@@ -217,7 +217,7 @@ Eliminar ramas remotas de nuestro local(actualizar que ya no existen).
 
 <mark>***<u>CLASE#4</u>***</mark>
 
-**PULL REQUEST**
+<u>****PULL REQUEST*</u>***
 
 Abreviada PR, es una solicitud de cambios enviados al repositorio original.
 
@@ -235,7 +235,7 @@ HACER UNA BUENA PULL REQUEST
 
 
 
-GIT FLOW
+<u>**GIT FLOW**</u>
 
 Es un modelo de ramificación para Git que se centra en cómo se gestionan las ramas en un proyecto Git. Fue popularizado por Vincent Driessen en un artículo de 2010 y desde entonces ha sido adoptado por muchos equipos de desarrollo de software debido a su enfoque estructurado y su capacidad para gestionar proyectos de forma eficiente.
 
@@ -249,7 +249,7 @@ Hotfix: Parches o arreglar bugs pequenios.
 
 
 
-GITHUB FLOW
+<u>***GITHUB FLOW***</u>
 
 Rama main y cualquier otra rama que quiera ser integrada por medio de PR.
 
@@ -259,7 +259,7 @@ Es la alternativa mas simple a GIT FLOW. Tiene menos liturgias, es mas facil de 
 
 
 
-TRUNK BASED DEVELOPMENT
+<u>***TRUNK BASED DEVELOPMENT***</u>
 
     Solo la rama main y ramas auxiliares efimeras que quiera ser integrada por medio de una pull request.
 
@@ -271,7 +271,7 @@ Es util si contamos con un buen sistema CI/CD. En esta estrategia se prioriza hc
 
 
 
-SHIP / SHOW / ASK
+<u>***$SHIP / SHOW / ASK$***</u>
 
 1.- Ship: Se fusiona en la rama principal sin revision.
 
@@ -297,7 +297,7 @@ Las ramas son lo mas pequenias posibles.
 
 
 
-CADA CUANTO HACER UN COMMIT?
+*<u>**CADA CUANTO HACER UN COMMIT?**</u>*
 
  La respuesta es a menudo.
 
@@ -305,7 +305,7 @@ Es mejor hacer commits pequenios, agrupando pequenias mejoras o acciones, que un
 
 Hacer commits a menudo no significa hacerlos sin sentido.
 
-BUENAS PRACTICAS SOBRE COMMITS
+<u>***BUENAS PRACTICAS SOBRE COMMITS***</u>
 
 - Usar el verbo imperativo(add, change, fix, remove)
 - No usar puntos suspensivos ni final en los mensajes del commit.
@@ -315,7 +315,7 @@ BUENAS PRACTICAS SOBRE COMMITS
 
  
 
-ESCRIBIR UN BUEN NOMBRE DE RAMA
+*<u>**ESCRIBIR UN BUEN NOMBRE DE RAMA**</u>*
 
 - Se conciente al nombrar tus ramas
 - Usa el nombre de la accion que se realiza en la rama
@@ -329,7 +329,7 @@ ESCRIBIR UN BUEN NOMBRE DE RAMA
 
 
 
-EN QUE CASOS DESHACEMOS CAMBIOS?
+***<u>EN QUE CASOS DESHACEMOS CAMBIOS?</u>***
 
 - Dejo de funcionar el proyecto
 - Queremos recuperar una parte del cdigo que eliminamos
@@ -338,7 +338,7 @@ EN QUE CASOS DESHACEMOS CAMBIOS?
   
   
 
-COMANDOS DESTRUCTIVOS Y NO DESTRUCTIVOS
+<u>***COMANDOS DESTRUCTIVOS Y NO DESTRUCTIVOS***</u>
 
 Los comandos destructivos afectan al historial de commits realizados, por contrario los nos destructivos trabajan en base al historial sin afectarlos.
 
@@ -371,7 +371,7 @@ Nos permite traer una version anterior de un archivo a nuestra rama actual sin a
 
 
 
-HOOKS
+<u>***HOOKS***</u>
 
 Son eventos que se realizan antes o despues de ciertos comandos, podria verse como en base de datos TRIGGERS para mayor entendimiento.
 
@@ -391,7 +391,7 @@ Los hooks del lado del cliente solo afectan al repositorio local que los contien
 
 
 
-COMO CREAR MI PRIMER HOOK
+***<u>COMO CREAR MI PRIMER HOOK</u>***
 
 Para crear un propio hook solo tienes que crear un archivo nombre-del-hook en la carpeta .git/hooks y  en el poner el codigo que quieres que se ejecute.
 
@@ -399,7 +399,7 @@ Puedes usar todo tipo de interpretes de lenguaje de programacion como bash, node
 
 
 
-QUE ES UN ALIAS
+***<u>QUE ES UN ALIAS</u>***
 
 Un alias son nombres abreviados que se le pueden dar a comados dentro de git, permiten definir una serie de comandos que puden ser usados en lugar de los nombres completos. Se usan para facilitar la escritura, agilizar el proceso y hacer del ambiente de trabajo algo mas intimo y personalizado para el usuario.
 
@@ -419,13 +419,13 @@ Comando para borrar un alias.
 
 
 
-TRUCOS EN GIT
+<u>***TRUCOS EN GIT***</u>
 
 
 
 
 
-GUARDAR CAMBIOS TEMPORALMENTE
+***GUARDAR CAMBIOS TEMPORALMENTE***
 
 "git stash"
 
