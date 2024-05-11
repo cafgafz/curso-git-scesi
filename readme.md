@@ -226,3 +226,65 @@ HACER UNA BUENA PULL REQUEST
 1.- Enfocar el codigo en una sola cosa.
 
 2.- Explicar la pull request un video o grabar pantalla.
+
+
+
+
+
+***<u><mark>CLASE N#5</mark></u>***
+
+
+
+GIT FLOW
+
+Es un modelo de ramificación para Git que se centra en cómo se gestionan las ramas en un proyecto Git. Fue popularizado por Vincent Driessen en un artículo de 2010 y desde entonces ha sido adoptado por muchos equipos de desarrollo de software debido a su enfoque estructurado y su capacidad para gestionar proyectos de forma eficiente.
+
+Feature: Caracteristicas nuevas para el proyecto.
+
+Release: Cambios de ultimo momento.
+
+Hotfix: Parches o arreglar bugs pequenios.
+
+
+
+
+
+GITHUB FLOW
+
+Rama main y cualquier otra rama que quiera ser integrada por medio de PR.
+
+Es la alternativa mas simple a GIT FLOW. Tiene menos liturgias, es mas facil de entender y favorece los despliegues continuos de tu proyecto.
+
+
+
+
+
+TRUNK BASED DEVELOPMENT
+
+    Solo la rama main y ramas auxiliares efimeras que quiera ser integrada por medio de una pull request.
+
+Es util si contamos con un buen sistema CI/CD. En esta estrategia se prioriza hcaer commits directamente a la rama principal, en el caso de necesitar ramas se hacen pequenias PR y que duren poco tiempo para ser integradas lo antes posible.
+
+
+
+
+
+
+
+SHIP / SHOW / ASK
+
+1.- Ship: Se fusiona en la rama principal sin revision.
+
+2.- Show: Abre una peticion de cambios para que sean revisados por CI pero se fusiona inmediatamente.
+
+3.- Ask: Abre una PR para discutir los cambios antes de fusionarlos \.
+
+Algunas de las reglas :
+
+Tenemos un buen sistema CI/CD.
+
+Confiamos en el equipo y tenmos buenas practicas de desarrollo.
+
+Las revisiones de codigo no son requerimientos.
+
+Las ramas son lo mas pequenias posibles.
