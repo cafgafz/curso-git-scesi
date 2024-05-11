@@ -145,3 +145,19 @@ Diferencia entre Git y GitHub
 - **Git** es el sistema de control de versiones.
 
 - **GitHub** es un servicio de alojamiento en la nube de código fuente.
+
+COMANDOS PARA REPOSITORIOS REMOTOS
+
+"git remote add origin URLrepositorio"
+
+Comando para añadir un repositorio remoto(github, gitlab, ect)
+
+"git remote set-url remoteName URLrepositorio"
+
+Comando para editar url de un repositorio.
+
+"git remote remove"
+
+Comando para borrar un repositorio remoto.
+
+"git remote -v"
