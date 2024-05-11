@@ -320,3 +320,43 @@ ESCRIBIR UN BUEN NOMBRE DE RAMA
 - Se conciente al nombrar tus ramas
 - Usa el nombre de la accion que se realiza en la rama
 - Use los IDs de JIRA o el sistema de tickets que uses
+
+
+
+
+
+***<u><mark>CLASE N#7</mark></u>***
+
+
+
+EN QUE CASOS DESHACEMOS CAMBIOS?
+
+- Dejo de funcionar el proyecto
+- Queremos recuperar una parte del cdigo que eliminamos
+- Queremos recuperar archivos que eliminamos
+  
+  
+  
+
+COMANDOS DESTRUCTIVOS Y NO DESTRUCTIVOS
+
+Los comandos destructivos afectan al historial de commits realizados, por contrario los nos destructivos trabajan en base al historial sin afectarlos.
+
+"git reset"
+
+Posee 2 opciones:
+
+- <u>soft </u>: Mantiene los cambios que ocurrieron antes de hacer commit, mantiene los archivos que estaban siendo trackeados(staged).
+- <u>hard</u>: descarta los cambios (es el mas usado).
+
+"git revert"
+
+Revierte los cambios que un commit introdujo y crea un commit nuevo con los cambios revertidos.
+
+"git checkout"
+
+Nos permite recuperar codigo especifico de commits.
+
+"git checkout HASH filename"
+
+Nos permite traer una version anterior de un archivo a nuestra rama actual sin afectar demas archivos.
