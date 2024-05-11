@@ -181,3 +181,7 @@ Para pushear o subir los cambios al repositorio remoto.
 "git push -f "
 
 Para forzar el subir los cambios o pushear al remoto.
+
+"git clone urlrepo"
+
+Para clonar un repositorio remoto en tu local.
