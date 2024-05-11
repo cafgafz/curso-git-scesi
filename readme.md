@@ -106,6 +106,10 @@ Este es el comando que yo utilizaba para moverme entre ramas.
 
 Comando para eliminar una rama.
 
+"git branch -a"
+
+Para ver las ramas locales y remotas.
+
 
 
 
@@ -162,9 +166,13 @@ Comando para borrar un repositorio remoto.
 
 "git remote -v"
 
+Para ver todos los repositorios remotos mas urls que estan en nuestro local.
+
+
+
 **PULL AND PUSH**
 
-Para ver todos los repositorios remotos mas urls que estan en nuestro local.
+
 
 "git pull nombreRepoRemoto ramalocal"
 
@@ -185,3 +193,20 @@ Para forzar el subir los cambios o pushear al remoto.
 "git clone urlrepo"
 
 Para clonar un repositorio remoto en tu local.
+
+CREACION DE UNA RAMA REMOTA
+
+"git switch -c"
+
+Para crear una rama en el local y movernos automaticamente a ella.
+
+"git push origin website"
+
+Mandamos la rama local al remoto, ten en cuenta que primero siempre debes crear la rama de lo contrario te dara error.
+
+"git fetch"
+
+Actualiza la informacion de la rama remota en la local, para poder traer una rama del remoto al local, primero git fetch y luego nos cambiamos a la rama para poder tenerla en el local.
+
+"git remote prune origin"
+Eliminar ramas remotas de nuestro local(actualizar que ya no existen).
