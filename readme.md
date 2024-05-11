@@ -365,7 +365,7 @@ Nos permite traer una version anterior de un archivo a nuestra rama actual sin a
 
 
 
-CLASE N#8
+<u><mark>***CLASE N#8***</mark></u>
 
 
 
@@ -414,3 +414,27 @@ Comando para crear un alias en nuestra terminal.
 "git config --unset alias.nombre_alias"
 
 Comando para borrar un alias.
+
+
+
+
+
+TRUCOS EN GIT
+
+
+
+
+
+GUARDAR CAMBIOS TEMPORALMENTE
+
+"git stash"
+
+Es un comando en Git que se utiliza para "guardar" temporalmente los cambios locales que aún no han sido comprometidos en un "stash" (oculto). Esto es útil cuando quieres cambiar de rama o hacer algo más en tu repositorio sin comprometer tus cambios actuales. Básicamente,  te permite guardar un estado de trabajo en progreso para que puedas volver a él más tarde (lo guarda en una pila).
+
+"git stash -u"
+
+Guardara en el stash los archivos que esten y tambien los que no esten en el staged.
+
+"git stash pop"
+
+Para eliminar un archivo puesto en la pila.
