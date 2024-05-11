@@ -386,3 +386,13 @@ Los hooks del lado del cliente solo afectan al repositorio local que los contien
 3. **pre-push**: Se ejecuta antes de enviar cambios locales a un repositorio remoto. Puede utilizarse para realizar pruebas finales o asegurarse de que los cambios locales no rompan la integración con el repositorio remoto.
 
 4. **post-merge**: Se ejecuta después de que se haya fusionado una rama en otra. Puede utilizarse para realizar acciones específicas después de una fusión, como actualizar dependencias o ejecutar migraciones de base de datos.
+
+
+
+
+
+COMO CREAR MI PRIMER HOOK
+
+Para crear un propio hook solo tienes que crear un archivo nombre-del-hook en la carpeta .git/hooks y  en el poner el codigo que quieres que se ejecute.
+
+Puedes usar todo tipo de interpretes de lenguaje de programacion como bash, node, python, perl, etc.
