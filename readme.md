@@ -2,7 +2,7 @@ CURSO DE GIT POSTULANTES SCESI UMSS 2024
 
 En este README encontraras todo lo avanzado durante estas clases, junto con informacion adicional sobre GIT.
 
-***<u>CLASE N#1</u>***
+
 
 QUE ES GIT?
 Es el sistema controlador de versiones mas famoso del mundo, un proyecto de codigo abierto originalmente esarollado por LINUS TORVALDS, el famoso creador del kernel del sistema operativo LINUX
@@ -49,7 +49,7 @@ Se refiere a la fusion o incorporacion de cambios traidos desde otra rama a la r
 
 
 
-
+***<u>CLASE N#1</u>***
 
 COMANDOS BASICOS DE GIT...
 
@@ -77,6 +77,16 @@ El comando git log nos muestra el historial de commits realizados desde la creac
 
 
 <u>***<mark>CLASE N#2</mark>***</u>
+
+BRANCH
+
+RAMAS:
+
+Las ramas son una forma de trabajar en diferentes versiones de un repositorio al mismo tiempo, son basicamente una instantanea de la division del estado del codigo. Cada repositorio de Git tiene al menos una rama, que normalmente se llama "master" (o "main" en algunas configuraciones más recientes), que es la rama por defecto cuando se crea un repositorio.
+
+MERGE:
+
+Se refiere a la fusion o incorporacion de cambios traidos desde otra rama a la rama actual o donde esta el puntero HEAD.
 
 COMANDOS PARA CREACION DE RAMAS:
 
@@ -117,3 +127,21 @@ Evita que haga commit automaticamente.
 "git diff"
 
 Este comando nos sirve para ver las diferencias entre achivos, en la fusion o merge o tambien para casos generales cuando queremos saber que cambios se han realizado sobre un archivo.
+
+ 
+
+***<u><mark>CLASE N#3</mark></u>***
+
+REPOSITORIOS REMOTOS
+
+Un repositorio remoto en Git es una versión de tu proyecto que esta alojada en un servidor en línea o en otro lugar accesible a través de Internet. Este repositorio remoto puede contener una copia completa del historial de tu proyecto, así como las ramas y los commits que has realizado.
+
+GITHUB
+
+GitHub es una plataforma de desarrollo colaborativo para alojar proyectos utilizando el sistema de control de versiones Git. Es uno de los servicios de alojamiento de repositorios remotos más populares y ofrece diversas herramientas para facilitar la colaboración en proyectos de software.
+
+Diferencia entre Git y GitHub
+
+- **Git** es el sistema de control de versiones.
+
+- **GitHub** es un servicio de alojamiento en la nube de código fuente.
